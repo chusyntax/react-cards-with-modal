@@ -4,6 +4,9 @@ function Projects() {
     return (
       <>
      <Cards/>
+     <Cards/>
+     <Cards/>
+     <Cards/>
      </>
     );
   }
