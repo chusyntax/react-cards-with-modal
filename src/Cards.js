@@ -1,6 +1,8 @@
 import img from './112803.jpg';
 import GitHub from './github-white.png';
 import Website from './website-white.png';
+import ModalButton from './ModalBu'
+
 
 function Card(props) {
     return (
