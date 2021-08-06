@@ -1,7 +1,7 @@
 import img from './112803.jpg';
 import GitHub from './github-white.png';
 import Website from './website-white.png';
- import ModalButton from './ModalButton'
+//import ModalButton from './ModalButton'
 
 
 function Card(props) {
@@ -28,7 +28,7 @@ function Card(props) {
       <p className="cardDescription">{props.description}</p>
   </div>
   <button className="cardButton">More Information</button>
-<ModalButton/>
+
 </div>
     );
   }
