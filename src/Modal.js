@@ -3,9 +3,11 @@ import React from 'react'
 const Modal =(props)=>{
 
 return(
-
+   
 <> 
+
 {props.showModal ? (
+
     <div className="background">
         <div className='modalWrapper' showModal={props.showModal}>
 
@@ -24,6 +26,7 @@ return(
         </div>
     </div>
 ) : null} 
+
 </>
 
 );
