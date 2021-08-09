@@ -8,6 +8,7 @@ import ModalButton from './ModalButton';
 function Card(props) {
   
   const [showModal,setShowModal] = useState(false);
+
     return (
       <div className="card">
   <div className="cardBody">
@@ -32,7 +33,7 @@ function Card(props) {
   </div>
   <button className="cardButton">More Information</button>
 
-  <ModalButton openModal={props.openModal}>Info</ModalButton>
+  <ModalButton openModal={()=>setShowModal(true)}>Info</ModalButton>
 
   <Modal showModal={showModal} setShowModal={setShowModal}
  heading="Modal Heading"
