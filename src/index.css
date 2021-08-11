@@ -109,6 +109,8 @@ a{
   text-decoration: none;
   color:white;
 }
+
+
 .cardWrapper{
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(12rem,16rem));
